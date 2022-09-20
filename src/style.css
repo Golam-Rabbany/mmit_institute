@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible)
+{
+  @apply outline-none;
+}
