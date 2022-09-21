@@ -1,13 +1,13 @@
 <div>
     
-    <section>
-        <div class="grid grid-cols-1 md:grid-cols-2">
-            <div>
-                <img src="https://marketplace.canva.com/EAFKWTiYxtc/1/0/1600w/canva-white-and-orange-minimal-aesthetic-hello-fall-facebook-cover-LTMoRbp5jPI.jpg" alt="">
+    <section class="mb-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="hidden lg:block">
+                <img class="bg-cover bg-center h-full" src="https://marketplace.canva.com/EAFKWTiYxtc/1/0/1600w/canva-white-and-orange-minimal-aesthetic-hello-fall-facebook-cover-LTMoRbp5jPI.jpg" alt="">
             </div>
-            <div class="bg-gradient-to-r from-success-500 to-primary-500 px-10">
+            <div class="bg-gradient-to-r from-primary-500 to-red-500 px-10">
                 <div class="my-10">
-                    <p class="text-center text-white text-3xl font-semibold mx-4">Welcome to MMIT Institute</p>
+                    <p class="text-center text-white text-3xl font-semibold mx-4  text-white">Welcome to MMIT Institute</p>
                     <p class="text-center text-white mt-2">Create an Account</p>
                 </div>
                 <form action="">
@@ -23,10 +23,41 @@
                         <label for="" class="text-white text-sm">Phone</label>
                         <input class=" text-lg font-bold appearance-none bg-transparent border-b border-b-white w-full text-white mr-3 py-0.5 px-2 leading-tight focus:outline-none" type="number" aria-label="Full name">
                     </div>
-
-
                     <div class="mb-4">
-                        <button class="px-8 py-3 rounded bg-success-400 hover:bg-primary-400 hover:drop-shadow-md hover:shadow-primary-600 text-white font-semibold">Sign Up</button>
+                        <label for="" class="text-white text-sm">Father's Name</label>
+                        <input class=" text-lg font-bold appearance-none bg-transparent border-b border-b-white w-full text-white mr-3 py-0.5 px-2 leading-tight focus:outline-none" type="number" aria-label="Full name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="" class="text-white text-sm">Mother's Name</label>
+                        <input class=" text-lg font-bold appearance-none bg-transparent border-b border-b-white w-full text-white mr-3 py-0.5 px-2 leading-tight focus:outline-none" type="number" aria-label="Full name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="" class="text-white text-sm">Date of Birth</label>
+                        <input class=" text-lg font-bold appearance-none bg-transparent border-b border-b-white w-full text-white mr-3 py-0.5 px-2 leading-tight focus:outline-none" type="date" aria-label="Full name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="" class="text-white text-sm">Address</label>
+                        <textarea name="" id="" rows="2" class=" text-lg font-bold appearance-none bg-transparent border-b border-r border-b-white w-full text-white mr-3 py-0.5 px-2 leading-tight focus:outline-none"></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <label for="" class="text-white text-sm">Course</label>
+                        <select name="" id="" class=" text-lg font-bold appearance-none bg-transparent border-b border-b-white w-full text-white mr-3 py-0.5 px-2 leading-tight focus:outline-none">
+                            <option value=""  class="" >---select---</option>
+                            <option value="" class="text-gray-900">Web Design</option>
+                            <option value="" class="text-gray-900">Graphic Design</option>
+                            <option value="" class="text-gray-900">Web Development</option>
+                        </select>
+                        <!-- <textarea name="" id="" rows="2" ></textarea> -->
+                    </div>
+                    <div class="mb-4">
+                        <label for="" class="text-white text-sm">Photo</label>
+                        <input class=" text-lg font-bold file:text-blue-600 file:py-1   file:px-2 appearance-none bg-transparent border-b border-b-white w-full text-white mr-3 py-0.5 px-2 leading-tight focus:outline-none" type="file" aria-label="Full name">
+                    </div>
+                    
+
+
+                    <div class="py-6 mb-">
+                        <button class="px-8 py-3 rounded bg-success-500 hover:bg-white hover:text-black  hover:drop-shadow-md hover:shadow-primary-600  duration-500 text-white font-semibold">Sign Up</button>
                     </div>
                 </form>
             </div>
