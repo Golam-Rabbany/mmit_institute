@@ -5,8 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MMIT</title>
-    <link rel="stylesheet" href="../src/style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/style.css" />
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,8 +13,7 @@
     <!-- owl carouse -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- tailwindcss -->
-    <script src="https://cdn.tailwindcss.com"></script>
+
 
     <!-- facebook sdk -->
     <div id="fb-root"></div>
@@ -28,8 +26,8 @@
 
     <section class="bg-primary-600 py-3">
       <div class="flex justify-between mx-4 sm:mx-24 items-center">
-      <div class="flex">
-        <div class="flex items-center mr-5 text-md">
+      <div class="flex flex-wrap">
+        <div class="flex items-center mr-5 text-md ">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-white">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 3.75L18 6m0 0l2.25 2.25M18 6l2.25-2.25M18 6l-2.25 2.25m1.5 13.5c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
           </svg>
@@ -45,20 +43,20 @@
       </div>
       <div class="hidden md:block">
         <ul class="flex mr-5">
-          <li class="ml-6 " >
-            <a href="https://www.facebook.com/mmitinstitute" target="_blank"><i class="fa-brands fa-facebook text-black bg-white rounded w-5 h-5 flex justify-center items-center "></i></a>
+          <li class="ml-6 w-5 h-5 bg-white flex items-center justify-center rounded-sm" >
+            <a href="https://www.facebook.com/mmitinstitute" target="_blank"><i class="fa-brands fa-facebook text-black  flex justify-center items-center rounded"></i></a>
           </li>
-          <li class="ml-6">
-            <a href=""><i class="fa-brands fa-twitter text-black bg-white w-5 h-5 flex justify-center items-center rounded"></i></a>
+          <li class="ml-6 w-5 h-5 bg-white flex items-center justify-center rounded-sm">
+            <a href=""><i class="fa-brands fa-twitter text-black  flex justify-center items-center rounded"></i></a>
           </li>
-          <li class="ml-6">
-            <a href=""><i class="fa-brands fa-linkedin-in text-black bg-white w-5 h-5 flex justify-center items-center rounded"></i></a>
+          <li class="ml-6 w-5 h-5 bg-white flex items-center justify-center rounded-sm">
+            <a href=""><i class="fa-brands fa-linkedin-in text-black  flex justify-center items-center rounded"></i></a>
           </li>
-          <li class="ml-6">
-            <a href=""><i class="fa-brands fa-square-instagram text-black bg-white w-5 h-5 flex justify-center items-center rounded"></i></a>
+          <li class="ml-6 w-5 h-5 bg-white flex items-center justify-center rounded-sm">
+            <a href=""><i class="fa-brands fa-square-instagram text-black  flex justify-center items-center rounded"></i></a>
           </li>
-          <li class="ml-6">
-            <a href=""><i class="fa-brands fa-youtube text-black bg-white w-5 h-5 flex justify-center items-center rounded"></i></a>
+          <li class="ml-6 w-5 h-5 bg-white flex items-center justify-center rounded-sm">
+            <a href=""><i class="fa-brands fa-youtube text-black  flex justify-center items-center rounded"></i></a>
           </li>
         </ul>
       </div>
@@ -67,29 +65,33 @@
 
 
   <!-- header -->
-  <section class="shadow-lg sticky top-0 z-50" style="box-shadow: 0px 0px 7px 0pxrgba(0,0,0,0.5);">
-    <div class="mx-4 sm:mx-24 flex justify-between items-center my-1">
-      <div>
+  <section class="shadow-lg sticky top-0 z-50 bg-white" style="box-shadow: 0px 0px 7px 0pxrgba(0,0,0,0.5);">
+    <div class="mx-4 sm:mx-24 flex flex-wrap md:flex-nowrap justify-between items-center my-1" x-data="{ menuOpen: false }">
+      <div class="w-1/2 md:w-auto">
+        <a href="/pages/index.html">
         <img src="https://www.mmitsoft.com/wp-content/uploads/2020/12/MM-IT-SOFT-Logo-Banner.png" alt="">
+      </a>
       </div>
-      <div class="hidden md:flex ">
-        <ul class="flex font-semibold">
-          <li class="mx-4"><a href="index.html">Home</a></li>
-          <li class="mx-4"><a href="about_us.html">About Us</a></li>
-          <li class="mx-4"><a href="courses.html">Courses</a></li>
-          <li class="mx-4"><a href="contact_us.html">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="flex md:hidden">
-        <a href="">
+      <div class="flex w-1/2 justify-end md:hidden">
+        <a href="#" x-on:click="menuOpen = !menuOpen">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
           
         </a>
       </div>
+      <div class="w-full md:flex md:justify-end mb-3 md:mb-0" x-bind:class="menuOpen ? 'flex' :'hidden'">
+        <ul class="flex flex-wrap  md:flex-nowrap font-semibold">
+          <li class="w-full md:w-auto mx-4 border-b md:border-none my-2 md:my-0"><a href="/pages/index.html">Home</a></li>
+          <li class="w-full md:w-auto mx-4 border-b md:border-none my-2 md:my-0"><a href="/pages/about_us.html">About Us</a></li>
+          <li class="w-full md:w-auto mx-4 border-b md:border-none my-2 md:my-0"><a href="/pages/courses.html">Courses</a></li>
+          <li class="w-full md:w-auto mx-4 border-b md:border-none my-2 md:my-0"><a href="/pages/contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
     </div>
   </section>
+
 
   <main>
 
@@ -131,99 +133,116 @@
 <section class="mx-4 md:mx-24 my-10 md:my-20">
   <div class="w-full text-center">
     <!-- <p class="text-xl font-semibold text-primary-500">All Courses>></p> -->
-    <p class="text-2xl sm:text-4xl font-bold text-success-500">Popular Courses</p>
+    <p class="text-2xl sm:text-4xl font-bold text-success-500">Our Courses</p>
     <div class="bg-primary-500 flex  mx-auto mt-3" style="height: 3px; width:200px"></div>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-10">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
     <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
-      <a href="course_info.html">
+      <a href="/pages/courses/web_design.html">
       <div>
         <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2022/01/Graphic-Design-Training-Program_Bangladesh.jpg" alt="">
       </div>
       <div class="mx-4 my-8">
-        <p class="text-2xl font-bold">Graphic Design</p>
+        <p class="text-2xl font-bold">Web Design</p>
 
-        <div class="flex justify-between mt-4">
-          <div class="">
-          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
+        <div class="mt-4">
+          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 20000</span>
         </div>
-        <div>
-          <button class="px-3 py-1 bg-primary-500 text-white group-hover:bg-gray-700">Enroll Now</button>
-        </div>
+        <div class="mt-4 bg-primary-500 group-hover:bg-gray-700 rounded-xl">
+          <button class="px-8 py-2 text-lg mx-auto flex  text-white ">Enroll Now</button>
         </div>
       </div>
     </a>
     </div>
     <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
+      <a href="/pages/courses/web_development.html ">
       <div>
         <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2021/12/Motion-Graphics-Training-Program_Bangladesh.jpg" alt="">
-      </div>
-      <div class="mx-4 my-8">
-        <p class="text-2xl font-bold">Graphic Design</p>
-
-        <div class="flex justify-between mt-4">
-          <div class="">
-          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
-        </div>
-        <div>
-          <button class="px-3 py-1 bg-primary-500 text-white group-hover:bg-gray-700">Enroll Now</button>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
-      <div>
-        <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2021/12/UX-UI-Training-Program_Bangladesh.jpg" alt="">
-      </div>
-      <div class="mx-4 my-8">
-        <p class="text-2xl font-bold">Web Design</p>
-
-        <div class="flex justify-between mt-4">
-          <div class="">
-          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
-        </div>
-        <div>
-          <button class="px-3 py-1 bg-primary-500 text-white group-hover:bg-gray-700">Enroll Now</button>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
-      <div>
-        <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2022/01/Graphic-Design-Training-Program_Bangladesh.jpg" alt="">
       </div>
       <div class="mx-4 my-8">
         <p class="text-2xl font-bold">Web Development</p>
 
-        <div class="flex justify-between mt-4">
-          <div class="">
-          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
+        <div class="mt-4">
+          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 30000</span>
         </div>
-        <div>
-          <button class="px-3 py-1 bg-primary-500 text-white group-hover:bg-gray-700">Enroll Now</button>
-        </div>
+        <div class="mt-4 bg-primary-500 group-hover:bg-gray-700 rounded-xl">
+          <button class="px-8 py-2 text-lg mx-auto flex  text-white ">Enroll Now</button>
         </div>
       </div>
+    </a>
     </div>
     <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
+      <a href="/pages/courses/full_stack.html">
       <div>
-        <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2021/12/Motion-Graphics-Training-Program_Bangladesh.jpg" alt="">
+        <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2021/12/UX-UI-Training-Program_Bangladesh.jpg" alt="">
       </div>
       <div class="mx-4 my-8">
         <p class="text-2xl font-bold">Full Stack Development</p>
 
-        <div class="flex justify-between mt-4">
-          <div class="">
+        <div class="mt-4">
           <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
         </div>
-        <div>
-          <button class="px-3 py-1 bg-primary-500 text-white group-hover:bg-gray-700">Enroll Now</button>
-        </div>
+        <div class="mt-4 bg-primary-500 group-hover:bg-gray-700 rounded-xl">
+          <button class="px-8 py-2 text-lg mx-auto flex  text-white ">Enroll Now</button>
         </div>
       </div>
+    </a>
     </div>
     <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
+      <a href="/pages/courses/graphic_design.html">
+      <div>
+        <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2022/01/Graphic-Design-Training-Program_Bangladesh.jpg" alt="">
+      </div>
+      <div class="mx-4 my-8">
+        <p class="text-2xl font-bold">Graphic Design</p>
+
+        <div  class="mt-4">
+          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
+        </div>
+        <div class="mt-4 bg-primary-500 group-hover:bg-gray-700 rounded-xl">
+          <button class="px-8 py-2 text-lg mx-auto flex  text-white ">Enroll Now</button>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
+      <a href="/pages/courses/digital_marketing.html">
+      <div>
+        <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2021/12/Motion-Graphics-Training-Program_Bangladesh.jpg" alt="">
+      </div>
+      <div class="mx-4 my-8">
+        <p class="text-2xl font-bold">Digital Marketing</p>
+
+          <div  class="mt-4">
+          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
+        </div>
+        <div class="mt-4 bg-primary-500 group-hover:bg-gray-700 rounded-xl">
+          <button class="px-8 py-2 text-lg mx-auto flex  text-white ">Enroll Now</button>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
+      <a href="/pages/courses/microsoft_office.html">
+      <div>
+        <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2021/12/Motion-Graphics-Training-Program_Bangladesh.jpg" alt="">
+      </div>
+      <div class="mx-4 my-8">
+        <p class="text-2xl font-bold">Mocrosoft Office</p>
+
+          <div class="mt-4">
+          <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
+        </div>
+        <div class="mt-4 bg-primary-500 group-hover:bg-gray-700 rounded-xl">
+          <button class="px-8 py-2 text-lg mx-auto flex  text-white ">Enroll Now</button>
+        </div>
+      </div>
+    </a>
+    </div>
+
+    <!-- another style -->
+    <!-- <div class="bg-blue-50 hover:bg-blue-200 group cursor-pointer rounded-3xl mb-10">
       <div>
         <img class="rounded-t-3xl" src="https://app.creativeitinstitute.com/wp-content/uploads/2021/12/Motion-Graphics-Training-Program_Bangladesh.jpg" alt="">
       </div>
@@ -235,11 +254,11 @@
           <span class="text-xl font-semibold">Course Fee : </span><span class="text-xl font-semibold">&#2547; 50000</span>
         </div>
         <div>
-          <button class="px-3 py-1 bg-primary-500 text-white group-hover:bg-gray-700">Enroll Now</button>
+          <button class="w-28 h-10 bg-primary-500 text-white group-hover:bg-gray-700">Enroll Now</button>
         </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </section>
@@ -453,7 +472,7 @@ $('#owl-carousel-course').owlCarousel({
   margin:10,
   nav:true,
   autoplay:true,
-  autoplayTimeout:1000,
+  autoplayTimeout:2000,
   autoplayHoverPause:false,
   responsive:{
       0:{
